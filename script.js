@@ -17,20 +17,6 @@ window.addEventListener('scroll', function () {
 	}
 });
 
-// let lastScrollTop;
-
-// window.addEventListener('scroll', function () {
-// 	let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-// 	if (scrollTop > lastScrollTop) {
-// 		nav.style.top = '-85px';
-// 	} else {
-// 		nav.style.top = '0';
-// 	}
-
-// 	lastScrollTop = scrollTop;
-// });
-
 //* MOBILE NAV
 const navSlide = () => {
 	const navList = document.querySelector('.nav-list');
@@ -66,13 +52,13 @@ const navSlide = () => {
 navSlide();
 
 //~ mobile vh toolbar fix
-// let vh = window.innerHeight * 0.01;
-// document.documentElement.style.setProperty('--vh', `${vh}px`);
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
 
-// window.addEventListener('resize', () => {
-// 	let vh = window.innerHeight * 0.01;
-// 	document.documentElement.style.setProperty('--vh', `${vh}px`);
-// });
+window.addEventListener('resize', () => {
+	let vh = window.innerHeight * 0.01;
+	document.documentElement.style.setProperty('--vh', `${vh}px`);
+});
 
 //* === ANIMATIONS ===
 gsap.to('.logo', {
