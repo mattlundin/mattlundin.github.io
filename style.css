@@ -261,6 +261,7 @@ section {
 }
 
 .project-img {
+	position: relative;
 	display: flex;
 	justify-content: center;
 	max-height: 420px;
@@ -282,6 +283,14 @@ section {
 	margin: 0;
 	padding: 0;
 	transition: 1s ease-in-out;
+}
+
+.project-name {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	color: #fff;
+	background-color:rgba(0, 162, 255, 0.184);
 }
 
 /** === CONTACT FORM ===  */
