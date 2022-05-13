@@ -33,7 +33,7 @@ nav {
 	top: 0;
 	height: 70px;
 	width: 100%;
-	background-color: #00162bea;
+	background-color: rgba(0, 22, 43, 0.918);
 	box-shadow: 0 2px 4px #363636;
 	transition: top 0.5s ease-in-out;
 	z-index: 10;
@@ -290,7 +290,7 @@ section {
 	text-align: center;
 	bottom: 0;
 	color: #fff;
-	background-color:rgba(0, 0, 0, 0.184);
+	background-color:rgba(0, 0, 0, 0.250);
 }
 
 /** === CONTACT FORM ===  */
