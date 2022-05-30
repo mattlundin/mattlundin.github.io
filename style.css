@@ -289,8 +289,9 @@ section {
 	position: absolute;
 	text-align: center;
 	bottom: 0;
+	padding: 10px;
 	color: #fff;
-	background-color:rgba(0, 0, 0, 0.250);
+	background-color:rgba(0, 0, 0, 0.450);
 }
 
 /** === CONTACT FORM ===  */
