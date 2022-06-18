@@ -543,10 +543,6 @@ form .btn:active {
 		height: 280px;
 		width: 400px;
 	}
-	.project-img img {
-		height: 100%;
-		width: 100%;
-	}
 	.tech-columns {
 		padding: 2rem 0;
 	}
@@ -557,8 +553,12 @@ form .btn:active {
 
 @media screen and (max-width: 450px) {
 	.project-img {
-		height: 220px;
-		width: 96%;
+		height: 250px;
+		/* width: 96%; */
+	}
+	.project-img img {
+		height: 100%;
+		width: 100%;
 	}
 }
 
