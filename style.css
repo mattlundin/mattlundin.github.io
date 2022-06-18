@@ -543,6 +543,10 @@ form .btn:active {
 		height: 280px;
 		width: 400px;
 	}
+	.project-img img {
+		height: 100%;
+		width: 100%;
+	}
 	.tech-columns {
 		padding: 2rem 0;
 	}
