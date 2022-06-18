@@ -554,7 +554,6 @@ form .btn:active {
 @media screen and (max-width: 450px) {
 	.project-img {
 		height: 220px;
-		width: 380px;
 	}
 }
 
