@@ -541,6 +541,7 @@ form .btn:active {
 	}
 	.project-img {
 		max-height: 280px;
+		height: auto;
 		max-width: 400px;
 		width: 100%;
 	}
