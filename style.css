@@ -540,8 +540,7 @@ form .btn:active {
 		width: 250px;
 	}
 	.project-img {
-		max-height: 280px;
-		height: auto;
+		height: 280px;
 		max-width: 400px;
 		width: 100%;
 	}
@@ -553,12 +552,11 @@ form .btn:active {
 	}
 }
 
-/* @media screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
 	.project-img {
-		height: 200px;
-		width: 320px;
+		height: 230px;
 	}
-} */
+}
 
 @media screen and (max-width: 365px) {
 	.tech-columns li {
